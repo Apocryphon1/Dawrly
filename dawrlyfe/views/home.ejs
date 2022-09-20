@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dawlry</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="homepage_container">
+        <div class="nav">
+            <a href="/login">
+                Log in
+            </a>
+            <a href="/register">
+                Sign up
+            </a>
+        </div>
+
+        <div class="middle">
+            <div class="mainLogo">
+                <img src="./images/main.png" />
+            </div>
+
+            <div id="searchbarContainer">
+                <form action="/products" role="search" id="mainForm" type="POST">
+                    <div class="searchFormDiv">
+                        <input type="search" id="searchbar" name="product" placeholder="Search..."
+                            aria-label="Search for a product" />
+                        <button type="submit" class = "form-button" value="Go" >
+                            <span class="material-icons"> search </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
